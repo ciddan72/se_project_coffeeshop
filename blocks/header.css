@@ -5,6 +5,8 @@
   height: 800px;
   display: flex;
   flex-direction: column;
+  z-index: 1;
+  box-sizing: border-box;
 }
 
 .header__title {
@@ -19,10 +21,9 @@
 }
 
 .header__span-accent {
+  display: block;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
-  font-weight: normal;
-  font-style: normal;
   line-height: 72px;
   color: #3f96f3;
 }
@@ -43,6 +44,7 @@
   right: 5px;
   width: 646px;
   height: 568px;
+  z-index: -1;
 }
 
 .header__footer {
@@ -60,9 +62,6 @@
 .header__paragraph {
   display: flex;
   justify-content: space-between;
-  left: 80px;
-  right: 80px;
   margin: 0;
-  bottom: 40px;
   align-items: flex-end;
 }

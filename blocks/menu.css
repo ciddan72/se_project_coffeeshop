@@ -1,5 +1,5 @@
 .menu {
-  background: center / cover no-repeat #fff url(/images/background_menu.svg);
+  background: center / cover no-repeat #fff url(../images/background_menu.svg);
   padding: 100px 0 100px;
   display: flex;
   flex-direction: column;
@@ -20,6 +20,7 @@
 .menu__subtitle {
   max-width: 780px;
   align-items: center;
+  text-align: center;
   margin: 0 0 100px;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
